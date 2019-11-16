@@ -1,0 +1,7 @@
+node_modules
+.exercism
+*._pycache_
+.cache
+*.pyc
+*tests.out
+*vscode

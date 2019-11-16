@@ -1,0 +1,62 @@
+Arguments: 
+  /home/mrphayo/.volta/tools/image/node/10.16.3/6.9.0/bin/node /home/mrphayo/.volta/tools/image/yarn/1.17.3/bin/yarn.js install
+
+PATH: 
+  /home/mrphayo/.volta/tools/image/node/10.16.3/6.9.0/bin:/home/mrphayo/.volta/tools/image/yarn/1.17.3/bin:/home/mrphayo/.vscode-server/bin/b37e54c98e1a74ba89e03073e5a3761284e3ffb0/bin:/home/mrphayo/bin:/home/mrphayo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/ProgramData/DockerDesktop/version-bin:/c/Program Files/Docker/Docker/Resources/bin:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Git/cmd:/c/Program Files (x86)/Nodist/bin:/c/Program Files/Intel/WiFi/bin/:/c/Program Files/Common Files/Intel/WirelessCommon/:/c/Program Files/kubectl:/c/Program Files/helm/windows-amd64:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/c/windows/system32:/c/windows:/c/windows/System32/Wbem:/c/windows/System32/WindowsPowerShell/v1.0/:/c/windows/System32/OpenSSH/:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/WiFi/bin/:/c/Program Files/Common Files/Intel/WirelessCommon/:/c/Program Files/Git/cmd:/c/Program Files (x86)/Nodist/bin:/c/Users/chukw/AppData/Local/Microsoft/WindowsApps:/c/Users/chukw/AppData/Local/Programs/Microsoft VS Code/bin:/c/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin:/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "exercism-javascript",
+    "version": "2.0.0",
+    "description": "Exercism exercises in Javascript.",
+    "author": "Katrina Owen",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/exercism/javascript"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.5.5",
+      "@babel/core": "^7.5.5",
+      "@babel/preset-env": "^7.5.5",
+      "@types/jest": "^24.0.16",
+      "@types/node": "^12.6.8",
+      "babel-eslint": "^10.0.2",
+      "babel-jest": "^24.8.0",
+      "eslint": "^6.1.0",
+      "eslint-plugin-import": "^2.18.2",
+      "jest": "^24.8.0"
+    },
+    "jest": {
+      "modulePathIgnorePatterns": [
+        "package.json"
+      ]
+    },
+    "scripts": {
+      "test": "jest --no-cache ./*",
+      "watch": "jest --no-cache --watch ./*",
+      "lint": "eslint .",
+      "lint-test": "eslint . && jest --no-cache ./* "
+    },
+    "license": "MIT",
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
